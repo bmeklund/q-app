@@ -22,7 +22,7 @@ public class APIResource {
     @Path("/hello")
     @Produces(MediaType.TEXT_PLAIN)
     public String hello() {
-        return message.orElse("Bonjour");
+        return message.orElse("Bonjour!");
     }
 
     @GET
